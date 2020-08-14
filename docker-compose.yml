@@ -1,6 +1,6 @@
 version: '3'
 services:
-  devbox:
+  webserver:
     build:
       context: ./dockerfile-cont
       dockerfile: AvocadoNCWebServer.DockerFile
@@ -9,7 +9,7 @@ services:
       - "443:443"
     volumes:
       - ./app:/var/www/html/app
-  devmysql:
+  mysql:
     build:
       context: ./dockerfile-cont
       dockerfile: AvocadoNCMySQL.DockerFile

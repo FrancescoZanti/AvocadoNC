@@ -11,7 +11,7 @@ GRANT ALL ON *.* TO 'AvocadoNC'@'%';
 
 
 --
--- Database: `test1234`
+-- Database: `AvocadoNC`
 --
 CREATE DATABASE IF NOT EXISTS `AvocadoNC` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `AvocadoNC`;
