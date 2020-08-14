@@ -19,7 +19,6 @@ jobs:
       run: docker-compose up -d
     - name: Check image(s)
       run: docker images -a
-    - name: Check Timeout
-      timeout-minutes: 5
+  
 
 
